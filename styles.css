@@ -1,0 +1,104 @@
+body {
+    background-color: rgb(71, 95, 21);
+}
+
+label, input {
+    display: flex;
+    flex-direction: column;
+    height: 25px;
+    width: 220px;
+    color: white;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+}
+
+input {
+    color: black;
+    border: 2px solid olivedrab;
+}
+
+input:focus {
+    background-color: lightpink;
+}
+
+.main-container {
+    display: flex;
+    width: 75vw;
+    background-color: black;
+    margin: auto;
+}
+
+img {
+    width: 400px;
+    height: 600px;
+}
+
+.form-holder {
+    display: flex;
+    width: 45vw;
+    margin: auto;
+}
+
+form {
+    width: 800px;
+    margin: auto;
+    display: flex;
+}
+
+button {
+    width: 120px;
+    height: 30px;
+    background-color: lightpink;
+    border-radius: 8px;
+    margin-top: 20px;
+    position: absolute;
+    right: 415px;
+}
+
+.left-side, .right-side {
+    display: block;
+    height: 50px;
+    width: 300px;
+    margin-left: 25px;
+}
+
+.right-side {
+    margin-top: 11px;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    size: 500px;
+    width: 555px;
+    color: white;
+}
+
+.top-para {
+    color: white;
+    font-size: x-large;
+    width: 400px;
+    position: absolute;
+    left: 680px;
+    top: 120px;
+}
+
+.logo {
+    position: absolute;
+    left: 690px;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    font-family: cursive;
+    padding: 5px;
+    background-color: rgb(184, 85, 49);
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+i {
+    margin-left: -30;
+    color: white;
+}
